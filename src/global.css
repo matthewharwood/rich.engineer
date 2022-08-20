@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'monument_extendedblack';
+    src: url('../monumentextended-black-webfont.woff2') format('woff2'),
+         url('../monumentextended-black-webfont.woff') format('woff');
+}
+
+html, body {
+    font-family: 'monument_extendedblack';
+}
